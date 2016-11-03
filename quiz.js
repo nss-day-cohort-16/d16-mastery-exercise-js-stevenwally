@@ -31,9 +31,6 @@ height.addEventListener("keyup", function(keyPress){ // Event listener on text f
 ///// FUNCTIONS
 
 function tree(treeLimbs) {
-	console.log("Click event"); // console log click event
-	treeLimbs.leaves = document.getElementById("field").value; // user input -> object
-	treeLimbs.height = document.getElementById("height").value; // user input -> object
 	var char = []; // creating empty array for tree building blocks
 	var spaceAmt = treeLimbs.height;
 	console.log(treeLimbs);
